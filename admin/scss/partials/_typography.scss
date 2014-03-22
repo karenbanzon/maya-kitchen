@@ -1,0 +1,105 @@
+
+	$copyfont: 'Roboto', Helvetica, Arial, sans-serif;
+	$headerfont: 'Roboto', Helvetica, Arial, sans-serif;
+
+	body { 
+		font-family: $copyfont; 
+		// font-size: 14px;
+		// color: $black; 
+		// font-style: normal;
+		// font-weight: 300;
+		// line-height: 23px;
+		// // -webkit-font-smoothing: antialiased;
+	}
+
+	::selection {
+		background-color: $baseYellow;
+		color: $white;
+	}
+
+	::-moz-selection {
+		background-color: $baseYellow;
+		color: $white;
+	}
+
+	h1,h2,h3,h4,h5,h6 { 
+		// line-height: 1em;
+		font-family: $headerfont; 
+		// font-weight: normal;
+		color: $mayaRed;
+		// margin: 0;
+		// text-transform: uppercase;
+	}
+
+	// h1 	{ font-size: 2.5em; }
+	// h2 	{ font-size: 2.1em; }
+	// h3 	{ font-size: 1.875em; }
+	// h4 	{ font-size: 1.25em; }
+	// h5 	{ font-size: 1.125em; }
+	// h6	{ font-size: 1em; }
+
+	// Additional H6 styling
+	// h6 { 
+	// 	margin-bottom: 10px;
+	// 	padding-bottom: 10px;
+	// 	border-bottom: 1px dotted $platinum;
+	// 	font-size: 1em; 
+	// 	text-transform: uppercase;
+	// 	text-align: left !important;
+	// }
+
+	
+	// p {
+	// 	margin: 7px 0 25px 0;
+	// 	font-family: $copyfont;
+	// 	font-style: normal;
+	// 	font-weight: 300;
+	// 	line-height: 23px;
+	// }
+
+
+	// blockquote {
+	// 	font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;;
+	// 	font-size: 2.3em;
+	// 	//font-style: italic;
+	// 	padding: 0 10px;
+	// 	text-indent: 0px;
+	// 	margin: 15px 20px;
+	// 	text-transform: uppercase;
+	// 	line-height: 1.12em;
+	// 	letter-spacing: -0.05em;
+
+	// 	&:before {
+	// 		content: '\201C';
+	// 		color: $ash;
+	// 		font-size: 1.2em;
+	// 		margin-left: -22px;
+	// 	}
+	// 	//&:after { content: '\201D'; }
+	// }
+
+	// // Navigation
+	// nav a {
+	// 	font-family: $copyfont; 
+	// 	text-transform: uppercase; 
+	// }
+
+	// // Smalls and captions
+	// small, figcaption, caption { 
+	// 	font-size: 0.75em; 
+	// 	font-weight: 400;
+	// }
+
+	// // Strongs and Bolds 
+	// strong, b { font-weight: bold; }
+
+	// // Italics
+	// em { font-style: italic; }
+
+	// // Footnote
+	// .footnote {
+	// 	display: block;
+	// 	margin-bottom: 20px;
+	// 	line-height: 2em;
+	// 	color: $gray;
+	// }

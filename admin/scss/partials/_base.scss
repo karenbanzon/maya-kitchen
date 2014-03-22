@@ -1,0 +1,56 @@
+// Base Rules
+
+	* { 
+		@include box-sizing(border-box); 
+
+		&:focus {
+			//outline: 1px solid $ash;
+		}
+	}
+	
+	html, body { 
+		margin: 0; padding: 0; 
+		background: $white;
+	}
+
+	a { 
+		@include transition(background, 0.1s);
+
+		text-decoration: none;
+		color: $mayaRed; 
+
+		&:hover { 
+			color: $mayaRed + 20; 
+		}
+	}
+
+	// a.white { color: $white; }
+
+	img { vertical-align: middle; }
+
+	p { overflow-wrap: break-word; }
+
+	figcaption {
+		padding: 10px;
+	}
+
+	hr {
+		background: $white;
+		height: 1px;
+		border-bottom: 1px solid $white;
+	}
+
+	.clearfix {
+	    *zoom:1;
+
+	    &:before,
+	    &:after {
+	        content: ".";    
+	        display: block;    
+	        height: 0;    
+	        overflow: hidden;   
+	    }
+	    &:after {
+	        clear:both;
+	    }
+	}

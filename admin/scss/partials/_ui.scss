@@ -1,0 +1,66 @@
+aside {
+	background: $lightGray;
+	// padding-bottom: 500em !important;
+	// margin-bottom: -500em !important;
+	button, .button { margin: 0; }
+}
+
+.sidebar {
+	padding-top: 20px;
+	margin: 0 -0.9375rem;
+}
+
+.side-nav li {
+	padding: 10px;
+	&:not(.heading):hover, &:not(.heading):focus, &:not(.heading).active {
+		background: $ash;
+		a { color: $white !important; }
+	}
+	&.active > a { color: $white !important; }
+}
+
+.checkbox-list {
+	list-style-type: none;
+}
+
+
+.main {
+	// overflow: hidden;
+	// height: 100%;
+}
+
+.core {
+	background: $grayHighlight;
+	padding-top: 20px;
+	// padding-bottom: 500em !important;
+	// margin-bottom: -500em !important;
+}
+
+.top-bar .title-area .name img {
+	width: 70px;
+	margin-top: 5px;
+}
+
+footer {
+	padding: 10px;
+	color: $ash;
+}
+
+table input[type="checkbox"] {
+	margin: 0;
+}
+
+table button, table .button {
+	@include button($button-tny, $secondary-color, false, false, false, false);
+	margin: 0;
+}
+
+.auto {
+	table-layout: auto;
+	width: 100%;
+}
+
+button.warning, .button.warning {
+	@include button($button-tny, $warning-color, false, false, false, false);
+	margin: 0;
+}
