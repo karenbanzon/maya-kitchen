@@ -1,17 +1,17 @@
 maya-kitchen
 ============
-
-Domain: themayakitchen.com
-Username: themayak
-Password: 9doWn87g0X
-Hosting Package: S-300 (Asia)
-Server IP: 174.127.94.178
-Nameserver 1: ns1.asia.eleven2.com
-Nameserver 2: ns2.asia.eleven2.com
-
-
-
-FTP Hostname: www.themayakitchen.com
-Webpage URL: http://www.themayakitchen.com
-CPanel: http://www.themayakitchen.com/cpanel
-WHM: http://www.themayakitchen.com/whm
+<br>
+Domain: themayakitchen.com<br>
+Username: themayak<br>
+Password: 9doWn87g0X<br>
+Hosting Package: S-300 (Asia)<br>
+Server IP: 174.127.94.178<br>
+Nameserver 1: ns1.asia.eleven2.com<br>
+Nameserver 2: ns2.asia.eleven2.com<br>
+<br>
+<br>
+<br>
+FTP Hostname: www.themayakitchen.com<br>
+Webpage URL: http://www.themayakitchen.com<br>
+CPanel: http://www.themayakitchen.com/cpanel<br>
+WHM: http://www.themayakitchen.com/whm<br>
