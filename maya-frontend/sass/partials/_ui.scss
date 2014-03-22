@@ -1,0 +1,57 @@
+// UI
+
+	//Imports
+	@import 'partials/elements/buttons';
+
+	// Breadcrumbs
+
+	.breadcrumb {
+		@include row;
+		background: $gray;
+		border-top: 1px solid $white;
+		padding: 10px 20px;
+		margin-bottom: 20px;
+		a {
+			color: $white;
+			text-transform: none;
+			font-weight: 100;
+			&.active { font-weight: 400; cursor: default; }
+		}
+		span {
+			color: $white;
+			vertical-align: middle;
+		}
+	}
+
+	// Recipe Of The Month
+	.rotm { overflow: hidden;}
+
+	.newgen {
+		text-align: center;
+		img { width: 70%; margin-top: 10px; }
+	}
+	// Article Summary
+
+	.articleSummary {
+		@include clearfix;
+		margin-bottom: 20px;
+		img, & > div { float: left; }
+		& > div {
+			padding: 10px;
+			width: 585px;
+			* { display: block; }
+			h4 { margin-bottom: 10px; }
+			a { display: inline; }
+		}
+	}
+
+	// Cards
+
+	.card {
+		background: $platinum;
+		width: 265px;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		div { padding: 10px; }
+	}

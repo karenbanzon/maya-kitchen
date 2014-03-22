@@ -1,0 +1,2 @@
+[30-Jan-2014 16:06:27 Europe/Moscow] PHP Fatal error:  Allowed memory size of 262144 bytes exhausted (tried to allocate 79 bytes) in Unknown on line 0
+[30-Jan-2014 16:10:39 Europe/Moscow] PHP Fatal error:  Allowed memory size of 262144 bytes exhausted (tried to allocate 79 bytes) in Unknown on line 0
