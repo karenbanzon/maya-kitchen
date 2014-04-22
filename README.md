@@ -15,3 +15,13 @@ FTP Hostname: www.themayakitchen.com<br>
 Webpage URL: http://www.themayakitchen.com<br>
 CPanel: http://www.themayakitchen.com/cpanel<br>
 WHM: http://www.themayakitchen.com/whm<br>
+
+============
+
+newgen-baker
+============
+<br>
+CONTROL PANEL: https://64.207.152.84:8443/
+USERNAME: newgenbaker
+PASSWORD: changeme
+</br>
